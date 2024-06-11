@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* child selector */
+    div > p {
+      background-color: red;
+
+    }
+    /* descendent selector */
+    div p{
+      background-color: blue;
+    }
+    /* universal selector */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /* pseudo selector */
+   a:visited{
+    color: yellow;
+   }
+   a:hover{
+    color: aqua;
+    background-color: black;
+   }
+   p::after{
+    content: hello css;
+   
+   }
+   span::before{
+    content: hllo bro;
+   }
+
+
+
+  </style>
+</head>
+<body>
+  <p>jhefubvrf</p>
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quia nulla dolorum </p>
+    <article>
+      <p>Lorem ipsum d</p>
+    </article>
+    <span><p>jhdwhfhbf</p></span>
+  </div>
+  <a href="https://www.facebook.com">facebook</a>
+  <a href="https://www.google.com">Google</a>
+  
+</body>
+</html>
